@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    font-family:  'Open Sans', sans-serif;
+}
+.banner{
+    background-image: url(/images/flood-full.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-color: gray;
+    /* padding: 200px; */
+    height: 600px;
+    /* width: 100%; */
+    margin-left: 5px;
+    margin-top: 0px;
+  
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 200px 0;
+    padding: 80px 80px 20px;
+    color: #f0ffff;
+  
+}
+.banner-detail{
+    text-align: center;
+    margin: 0px 370px 0;
+    color: #f0ffff;
+}
+.btn-banner{
+    margin: 30px 600px 0;
+    background-color: #ff7f50;
+    color: #f0ffff;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+/* Donate today */
+.donate-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.donate-heading{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 50px;
+
+}
+.donate-detail{
+    margin: 30px 250px 50px;
+   
+}
+.donate-amount{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.amount{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    background: gainsboro;
+    height: 80px;
+    width: 80px;
+    padding-top: 5px;
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+li.pink{
+    color: palevioletred;
+    background: pink;
+    border: 2px solid palevioletred;
+    font-weight: 800;
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+    padding-top: 5px;
+    margin-top: 3px;
+}
+.amount-taka{
+    color: lightgray;
+}
+.donate-line{
+    margin: 10px 350px 20px;
+    width: 620px;
+    position: relative;;
+}
+.btn-banner-donate{
+    margin: 20px 300px 10px;
+    background-color: #ff7f50;
+    color: #f0ffff;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.donate-plan{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* donate-box */
+.donate-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+    margin-left: 5px;
+
+}
+.subdonate-box{
+    border: 1px solid black;
+    box-sizing: content-box;
+    list-style: none;
+    padding: 50px;
+    margin: 50px 50px 120px;
+    border: 0;
+    
+}
+.box-head{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    
+}
+#subdonate-box-1{
+    background: lightblue;
+}
+#subdonate-box-2{
+    background: lightyellow;
+}
+#subdonate-box-3{
+    background: lightcoral;
+}
+
+/* image-text-style */
+.img-txt-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 2px;
+    margin-bottom: 80px;
+}
+.img-txt{
+    border: 0;
+    height: 400px;
+    width: 400px;
+    margin: 0 80px 5px;
+}
+.box1-head{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.btn-banner-1{
+    margin: 30px 0px 0;
+    background-color: #ff7f50;
+    color: #f0ffff;
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.form-head{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+}
+.form-detail{
+    margin: 30px 300px 30px;
+    text-align: center;
+}
+.email{
+    align-items: center;
+    width: 320px;
+    height: 45px;
+    padding-left: 20px;
+    /* margin: 80px 350px 50px; */
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 80px 400px 50px;
+    background: #f0ffff;
+}
+#btn-subscribe{
+        /* margin: 30px 800px 0; */
+        background-color: #ff7f50;
+        color: #f0ffff;
+        border: 0;
+        border-radius: 5px;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+
+}
